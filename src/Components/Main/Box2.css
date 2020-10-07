@@ -1,0 +1,8 @@
+.box2 {
+    background-color: rgb(37, 37, 37);
+    height: 48vh;
+    width: 75%;
+    position: absolute;
+    left: 20%;
+    top: 20%;
+}

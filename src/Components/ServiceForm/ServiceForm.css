@@ -1,0 +1,65 @@
+input:focus {
+    outline: none;
+}
+
+textarea:focus {
+    outline: none;
+}
+
+button:focus {
+    outline: none;
+}
+
+.form {
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.input::placeholder {
+    color: white;
+}
+
+.textarea::placeholder {
+    color: white;
+}
+
+.input {
+    margin: 10px auto;
+    height: 30px;
+    width: 80%;
+    padding: 5px;
+    font-size: 17px;
+    background-color: transparent;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    color: rgb(0, 214, 203);
+    border-bottom: 1px solid rgb(0, 214, 203);
+}
+
+.textarea {
+    background-color: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid rgb(0, 214, 203);
+    height: 200px;
+    width: 83%;
+    margin: 10px auto;
+    font-size: 15px;
+    color: rgb(0, 214, 203)
+}
+
+.submit {
+    margin: 20px auto;
+    height: 35px;
+    width: 85%;
+    background-color: transparent;
+    color: rgb(0, 214, 203);
+    border: 2px solid rgb(0, 214, 203);
+    font-weight: bold;
+    text-transform: uppercase;
+}

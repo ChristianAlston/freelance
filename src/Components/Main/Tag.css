@@ -1,0 +1,8 @@
+.tag {
+    position: absolute;
+    right: 1%;
+    top: 5%;
+    color: rgb(182, 182, 182);
+    font-weight: 200;
+    transform: rotate(-90deg);
+}

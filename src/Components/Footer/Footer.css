@@ -1,0 +1,48 @@
+.footer {
+    height: 100vh;
+    width: 90%;
+    position: relative;
+    background-color: rgb(10, 9, 63);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.contact {
+    color: rgb(0, 214, 203);
+    text-align: left;
+    margin: 30px 0;
+    width: 80%;
+}
+
+.start {
+    background-color: transparent;
+    border: 2px solid rgb(0, 214, 203);
+    height: 45px;
+    width: 100%;
+    margin: 0 auto;
+    color: rgb(0, 214, 203);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.profile {
+    margin: 20px 0;
+}
+
+.creds {
+    text-align: left;
+    margin: 10px auto;
+    width: 100%;
+    list-style: none;
+}
+
+.creds>a {
+    color: white;
+    text-decoration: none;
+}
+
+.creds>li {
+    color: white;
+}

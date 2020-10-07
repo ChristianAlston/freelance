@@ -1,0 +1,8 @@
+.box1 {
+    border: 1px solid rgb(0, 255, 170);
+    height: 300px;
+    width: 70px;
+    position: absolute;
+    top: 45%;
+    right: 5%
+}

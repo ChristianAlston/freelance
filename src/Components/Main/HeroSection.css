@@ -1,0 +1,27 @@
+.herosection {
+    height: 250vh;
+    width: 100%;
+    margin: 20px 0;
+    position: relative;
+}
+
+.visions {
+    font-size: 70px;
+    width: 10%;
+    z-index: 5;
+    color: rgb(0, 153, 255);
+    position: absolute;
+    top: 4%;
+    left: 5%;
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.help {
+    color: rgb(158, 158, 158);
+    position: absolute;
+    bottom: 25%;
+    left: 5%;
+    font-size: 20px;
+}
