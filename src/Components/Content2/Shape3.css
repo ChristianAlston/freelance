@@ -1,8 +1,21 @@
-.shape3 {
-    background-color: rgb(0, 214, 203);
-    height: 32%;
-    width: 50%;
-    position: absolute;
-    left: 0;
-    top: 32%;
+@media screen and (min-width: 320px) and (max-width: 470px) {
+    .shape3 {
+        background-color: rgb(0, 214, 203);
+        height: 32%;
+        width: 50%;
+        position: absolute;
+        left: 0;
+        top: 32%;
+    }
+}
+
+@media screen and (min-width: 471px) and (max-width: 1740px) {
+    .shape3 {
+        background-color: rgb(0, 214, 203);
+        height: 32%;
+        width: 50%;
+        position: absolute;
+        left: 0;
+        top: 32%;
+    }
 }

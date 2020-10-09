@@ -1,33 +1,114 @@
-.content2 {
-    height: 100vh;
-    width: 100%;
-    position: relative;
+@media screen and (min-width: 320px) and (max-width: 450px) {
+
+    .content2 {
+        height: 100vh;
+        width: 100%;
+        position: relative;
+    }
+
+    .ui {
+        color: white;
+        font-size: 38px;
+        text-align: right;
+        margin: 20px 10px;
+    }
+
+    .text2 {
+        color: rgb(236, 236, 236);
+        text-align: left;
+        position: absolute;
+        z-index: 2;
+        top: 34%;
+        left: 10%;
+        width: 60%;
+        font-weight: bold;
+    }
+
+    .excite {
+        color: rgb(236, 236, 236);
+        text-align: right;
+        position: absolute;
+        top: 70%;
+        right: 5%;
+        width: 60%;
+        font-weight: bold;
+    }
 }
 
-.ui {
-    color: white;
-    font-size: 38px;
-    text-align: right;
-    margin: 20px 10px;
+@media screen and (min-width: 451px) and (max-width: 770px) {
+
+    .content2 {
+        height: 110vh;
+        width: 100%;
+        position: relative;
+    }
+
+    .ui {
+        color: white;
+        font-size: 38px;
+        text-align: right;
+        margin: 20px 10px;
+    }
+
+    .text2 {
+        color: rgb(236, 236, 236);
+        text-align: left;
+        position: absolute;
+        z-index: 2;
+        top: 34%;
+        left: 10%;
+        width: 60%;
+        font-weight: bold;
+        font-size: 19px;
+    }
+
+    .excite {
+        color: rgb(236, 236, 236);
+        text-align: right;
+        position: absolute;
+        top: 70%;
+        right: 5%;
+        width: 60%;
+        font-weight: bold;
+        font-size: 19px;
+    }
 }
 
-.text2 {
-    color: rgb(236, 236, 236);
-    text-align: left;
-    position: absolute;
-    z-index: 2;
-    top: 34%;
-    left: 10%;
-    width: 60%;
-    font-weight: bold;
-}
+@media screen and (min-width: 771px) and (max-width: 1740px) {
 
-.excite {
-    color: rgb(236, 236, 236);
-    text-align: right;
-    position: absolute;
-    top: 70%;
-    right: 5%;
-    width: 60%;
-    font-weight: bold;
+    .content2 {
+        height: 130vh;
+        width: 100%;
+        position: relative;
+    }
+
+    .ui {
+        color: white;
+        font-size: 44px;
+        text-align: right;
+        margin: 20px 10px;
+    }
+
+    .text2 {
+        color: rgb(236, 236, 236);
+        text-align: left;
+        position: absolute;
+        z-index: 2;
+        top: 35%;
+        left: 10%;
+        width: 60%;
+        font-weight: bold;
+        font-size: 25px;
+    }
+
+    .excite {
+        color: rgb(236, 236, 236);
+        text-align: right;
+        position: absolute;
+        top: 70%;
+        right: 5%;
+        width: 60%;
+        font-weight: bold;
+        font-size: 25px;
+    }
 }

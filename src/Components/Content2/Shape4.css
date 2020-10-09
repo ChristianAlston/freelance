@@ -1,8 +1,21 @@
-.shape4 {
-    position: absolute;
-    right: 5%;
-    bottom: 10%;
-    background-color: white;
-    height: 1px;
-    width: 80%;
+@media screen and (min-width: 320px) and (max-width: 470px) {
+    .shape4 {
+        position: absolute;
+        right: 5%;
+        bottom: 10%;
+        background-color: white;
+        height: 1px;
+        width: 80%;
+    }
+}
+
+@media screen and (min-width: 471px) and (max-width: 1740px) {
+    .shape4 {
+        position: absolute;
+        right: 5%;
+        bottom: 10%;
+        background-color: white;
+        height: 1px;
+        width: 80%;
+    }
 }
