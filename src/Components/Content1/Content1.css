@@ -1,28 +1,83 @@
-.content1 {
-    height: 100vh;
-    width: 100%;
-    position: relative;
-}
+@media screen and (min-width: 320px) and (max-width: 470px) {
+    .content1 {
+        height: 100vh;
+        width: 100%;
+        position: relative;
+    }
 
-.title {
-    color: white;
-    text-align: left;
-    margin: 20px 5px;
-    font-size: 38px;
-}
+    .title {
+        color: white;
+        text-align: left;
+        margin: 20px 5px;
+        font-size: 38px;
+    }
 
-.text {
-    color: rgb(151, 151, 151);
-    text-align: right;
-    position: absolute;
-    right: 1%;
-    width: 60%;
-    font-size: 16.5px;
-    font-weight: bold;
-    margin: 20px 10px;
-    /* padding-top: 10px;
+    .text {
+        color: rgb(151, 151, 151);
+        text-align: right;
+        position: absolute;
+        right: 1%;
+        width: 60%;
+        font-size: 16.5px;
+        font-weight: bold;
+        margin: 20px 10px;
+        /* padding-top: 10px;
     padding-left: 10px;
     padding-bottom: 10px;
     border-left: 1px solid rgb(0, 255, 255);
     border-bottom: 1px solid rgb(0, 255, 255); */
+    }
+}
+
+
+@media screen and (min-width: 471px) and (max-width: 770px) {
+    .content1 {
+        height: 100vh;
+        width: 100%;
+        position: relative;
+    }
+
+    .title {
+        color: white;
+        text-align: left;
+        margin: 20px 5px;
+        font-size: 38px;
+    }
+
+    .text {
+        color: rgb(151, 151, 151);
+        text-align: right;
+        position: absolute;
+        right: 1%;
+        width: 60%;
+        font-size: 19px;
+        font-weight: bold;
+        margin: 20px 10px;
+    }
+}
+
+@media screen and (min-width: 771px) and (max-width: 1740px) {
+    .content1 {
+        height: 100vh;
+        width: 100%;
+        position: relative;
+    }
+
+    .title {
+        color: white;
+        text-align: left;
+        margin: 20px 5px;
+        font-size: 44px;
+    }
+
+    .text {
+        color: rgb(151, 151, 151);
+        text-align: right;
+        position: absolute;
+        right: 1%;
+        width: 60%;
+        font-size: 24.5px;
+        font-weight: bold;
+        margin: 20px 10px;
+    }
 }
