@@ -1,8 +1,21 @@
-.shape1 {
-    background-color: white;
-    height: 80%;
-    width: 5px;
-    position: absolute;
-    top: 15%;
-    left: 5%;
+@media screen and (min-width: 320px) and (max-width: 470px) {
+    .shape1 {
+        background-color: white;
+        height: 80%;
+        width: 5px;
+        position: absolute;
+        top: 15%;
+        left: 5%;
+    }
+}
+
+@media screen and (min-width: 471px) and (max-width: 1740px) {
+    .shape1 {
+        background-color: white;
+        height: 85%;
+        width: 5px;
+        position: absolute;
+        top: 10%;
+        left: 5%;
+    }
 }
