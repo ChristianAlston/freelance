@@ -27,11 +27,11 @@ button:focus {
 }
 
 .input {
-    margin: 10px auto;
-    height: 30px;
-    width: 80%;
+    margin: 12px auto;
+    height: 35px;
+    width: 75%;
     padding: 5px;
-    font-size: 17px;
+    font-size: 18px;
     background-color: transparent;
     border-left: none;
     border-top: none;
@@ -47,19 +47,34 @@ button:focus {
     border-right: none;
     border-bottom: 1px solid rgb(0, 214, 203);
     height: 200px;
-    width: 83%;
-    margin: 10px auto;
-    font-size: 15px;
-    color: rgb(0, 214, 203)
+    width: 75%;
+    margin: 12px auto;
+    font-size: 15.5px;
+    color: rgb(0, 214, 203);
+    padding: 5px;
 }
 
 .submit {
     margin: 20px auto;
-    height: 35px;
+    height: 45px;
     width: 85%;
     background-color: transparent;
     color: rgb(0, 214, 203);
     border: 2px solid rgb(0, 214, 203);
     font-weight: bold;
     text-transform: uppercase;
+}
+
+@media screen and (min-width: 471px) and (max-width: 1740px) {
+    .submit {
+        margin: 20px auto;
+        height: 55px;
+        width: 75%;
+        background-color: transparent;
+        color: rgb(0, 214, 203);
+        border: 2px solid rgb(0, 214, 203);
+        font-weight: bold;
+        font-size: 16px;
+        text-transform: uppercase;
+    }
 }
