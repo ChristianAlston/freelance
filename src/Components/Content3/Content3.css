@@ -1,42 +1,92 @@
-.content3 {
-    height: 300vh;
-    width: 100%;
-    background-color: rgb(252, 252, 252);
-    position: relative;
+@media screen and (min-width: 320px) and (max-width: 470px) {
+
+    .content3 {
+        height: 300vh;
+        width: 100%;
+        background-color: rgb(252, 252, 252);
+        position: relative;
+    }
+
+    .examples {
+        width: 10%;
+        text-align: left;
+        position: absolute;
+        left: 5%;
+        top: 7%;
+        z-index: 2;
+    }
+
+    .project1 {
+        position: absolute;
+        top: 25%;
+        right: 5%;
+        width: 220px;
+        height: 350px;
+        background-color: rgb(0, 214, 203);
+    }
+
+    .project2 {
+        position: absolute;
+        top: 50%;
+        left: 5%;
+        width: 220px;
+        height: 350px;
+        background-color: rgb(0, 214, 203);
+    }
+
+    .project3 {
+        position: absolute;
+        top: 75%;
+        right: 5%;
+        width: 240px;
+        height: 300px;
+        background-color: rgb(0, 214, 203);
+    }
 }
 
-.examples {
-    width: 10%;
-    text-align: left;
-    position: absolute;
-    left: 5%;
-    top: 7%;
-    z-index: 2;
-}
+@media screen and (min-width: 471px) and (max-width: 1740px) {
 
-.project1 {
-    position: absolute;
-    top: 25%;
-    right: 5%;
-    width: 220px;
-    height: 350px;
-    background-color: rgb(0, 214, 203);
-}
+    .content3 {
+        height: 380vh;
+        width: 100%;
+        background-color: rgb(252, 252, 252);
+        position: relative;
+    }
 
-.project2 {
-    position: absolute;
-    top: 50%;
-    left: 5%;
-    width: 220px;
-    height: 350px;
-    background-color: rgb(0, 214, 203);
-}
+    .examples {
+        width: 10%;
+        text-align: left;
+        position: absolute;
+        left: 5%;
+        top: 5%;
+        z-index: 2;
+        font-size: 44px;
+    }
 
-.project3 {
-    position: absolute;
-    top: 75%;
-    right: 5%;
-    width: 240px;
-    height: 300px;
-    background-color: rgb(0, 214, 203);
+    .project1 {
+        position: absolute;
+        top: 25%;
+        right: 5%;
+        width: 350px;
+        height: 430px;
+        background-color: rgb(0, 214, 203);
+    }
+
+    .project2 {
+        position: absolute;
+        top: 50%;
+        left: 5%;
+        width: 370px;
+        height: 410px;
+        background-color: rgb(0, 214, 203);
+    }
+
+    .project3 {
+        position: absolute;
+        top: 75%;
+        right: 5%;
+        width: 360px;
+        height: 450px;
+        background-color: rgb(0, 214, 203);
+    }
 }
