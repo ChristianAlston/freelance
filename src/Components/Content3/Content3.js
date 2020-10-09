@@ -4,7 +4,7 @@ import './Content3.css'
 const Content3 = () => {
     return (
         <div className='content3' id='projects'>
-            <h1 className='examples'>Here are some examples of mine</h1>
+            <h1 className='examples'>Here are some examples of my taste.</h1>
             <div className='project1'>
 
             </div>
