@@ -1,27 +1,187 @@
-.herosection {
-    height: 250vh;
-    width: 100%;
-    margin: 20px 0;
-    position: relative;
-}
+ @media screen and (min-width: 320px) and (max-width: 470px) {
+     @keyframes go {
+         from {
+             opacity: 0;
+             transform: translateY(5%);
+         }
 
-.visions {
-    font-size: 70px;
-    width: 10%;
-    z-index: 5;
-    color: rgb(0, 153, 255);
-    position: absolute;
-    top: 4%;
-    left: 5%;
-    text-align: left;
-    text-transform: uppercase;
-    font-weight: 400;
-}
+         to {
+             opacity: 1;
+         }
+     }
 
-.help {
-    color: rgb(158, 158, 158);
-    position: absolute;
-    bottom: 25%;
-    left: 5%;
-    font-size: 20px;
-}
+     .herosection {
+         height: 250vh;
+         width: 100%;
+         margin: 20px 0;
+         position: relative;
+     }
+
+     .visions {
+         font-size: 70px;
+         width: 10%;
+         z-index: 5;
+         color: rgb(0, 153, 255);
+         position: absolute;
+         top: 4%;
+         left: 5%;
+         text-align: left;
+         text-transform: uppercase;
+         font-weight: 300;
+         letter-spacing: 2px;
+         animation: go forwards 1.4s ease-in-out;
+     }
+
+     .help {
+         color: rgb(158, 158, 158);
+         position: absolute;
+         bottom: 25%;
+         left: 5%;
+         font-size: 20px;
+     }
+
+     .vr {
+         height: 22%;
+         width: 85%;
+         position: absolute;
+         top: 10%;
+         right: 5%;
+     }
+ }
+
+
+
+ @media screen and (min-width: 471px) and (max-width: 770px) {
+     @keyframes go {
+         from {
+             opacity: 0;
+             transform: translateY(5%);
+         }
+
+         to {
+             opacity: 1;
+         }
+     }
+
+     @keyframes right {
+         from {
+             opacity: 0;
+             transform: translateX(10%);
+         }
+
+         to {
+             opacity: 1;
+         }
+     }
+
+
+     .herosection {
+         height: 300vh;
+         width: 100%;
+         position: relative;
+         margin: 20px 0;
+     }
+
+     .visions {
+         font-size: 90px;
+         width: 10%;
+         z-index: 5;
+         color: rgb(0, 153, 255);
+         position: absolute;
+         top: 4%;
+         left: 5%;
+         text-align: left;
+         text-transform: uppercase;
+         font-weight: 300;
+         letter-spacing: 2px;
+         opacity: 0;
+         animation: go forwards .7s ease-in-out;
+     }
+
+     .help {
+         color: rgb(158, 158, 158);
+         position: absolute;
+         bottom: 25%;
+         left: 5%;
+         font-size: 35px;
+     }
+
+     .vr {
+         height: 550px;
+         width: 450px;
+         position: absolute;
+         top: 10%;
+         right: 5%;
+         opacity: 0;
+         animation: ease-in-out right forwards .5s;
+         animation-delay: 1.5s;
+     }
+ }
+
+ @media screen and (min-width: 771px) and (max-width: 1740px) {
+     @keyframes go {
+         from {
+             opacity: 0;
+             transform: translateY(5%);
+         }
+
+         to {
+             opacity: 1;
+         }
+     }
+
+     @keyframes right {
+         from {
+             opacity: 0;
+             transform: translateX(10%);
+         }
+
+         to {
+             opacity: 1;
+         }
+     }
+
+
+     .herosection {
+         height: 320vh;
+         width: 100%;
+         position: relative;
+         margin: 20px 0;
+     }
+
+     .visions {
+         font-size: 100px;
+         width: 10%;
+         z-index: 5;
+         color: rgb(0, 153, 255);
+         position: absolute;
+         top: 4%;
+         left: 5%;
+         text-align: left;
+         text-transform: uppercase;
+         font-weight: 300;
+         letter-spacing: 2px;
+         opacity: 0;
+         animation: go forwards 1.4s ease-in-out;
+         animation-delay: .3s;
+     }
+
+     .help {
+         color: rgb(158, 158, 158);
+         position: absolute;
+         bottom: 25%;
+         left: 5%;
+         font-size: 35px;
+     }
+
+     .vr {
+         height: 650px;
+         width: 550px;
+         position: absolute;
+         top: 10%;
+         right: 7%;
+         opacity: 0;
+         animation: ease-in-out right forwards .5s;
+         animation-delay: 1.5s;
+     }
+ }
